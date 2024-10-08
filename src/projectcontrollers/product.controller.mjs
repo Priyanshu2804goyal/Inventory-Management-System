@@ -31,7 +31,7 @@ export default class Productcontroller{
       res.render('update-product',{product:productfound,errorMessage:null,userEmail:req.session.userEmail});
     }
     else{
-      res.status(401).send('product is not found');
+      res.status(401).send('product is not found here');
     }
   }
   postupdateproduct(req,res,next){
