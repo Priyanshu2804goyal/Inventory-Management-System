@@ -1,0 +1,5 @@
+1.install multer
+2.changes in view
+3.middleware to handle files
+4.apply that middleware
+5.update controllers to update urls of the image;
